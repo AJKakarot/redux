@@ -1,0 +1,44 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: #1f2937;
+  }
+  
+  .cart-icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    width: 30px;
+    height: 30px;
+    color: #374151;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background-color: #ef4444;
+    color: white;
+    font-size: 0.75rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

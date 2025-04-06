@@ -1,1 +1,14 @@
 @import "tailwindcss";
+/* Optional: CSS Reset */
+/* index.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f9fafb;
+  }
+  
